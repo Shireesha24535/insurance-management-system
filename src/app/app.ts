@@ -1,10 +1,10 @@
 
 import { Component } from '@angular/core';
-
+import { QuoteForm } from './features/quotes/quote-form/quote-form';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [],
+  imports: [QuoteForm],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
