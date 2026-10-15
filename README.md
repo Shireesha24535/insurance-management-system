@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # InsurancePortal
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.2.2.
@@ -57,3 +58,6 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+=======
+# insurance-management-system
+>>>>>>> ccbac9c389a1611a2770b7972f9cab40d8c9c123
