@@ -31,7 +31,8 @@
   font-size: clamp(28px, 4vw, 38px);
 }
 
-.quote-heading p {
+.quote-heading p,
+.section-description {
   color: #627087;
   line-height: 1.7;
 }
@@ -74,9 +75,27 @@
   outline-offset: 2px;
 }
 
+.product-fields {
+  display: grid;
+  gap: 18px;
+  padding-top: 20px;
+  border-top: 1px solid #e1e8f0;
+}
+
+.product-fields h3 {
+  margin: 0;
+  font-size: 21px;
+}
+
+.section-description {
+  margin: -12px 0 0;
+  font-size: 14px;
+}
+
 .error {
   color: #b42318;
   font-size: 13px;
+  line-height: 1.5;
 }
 
 .quote-button,
@@ -119,6 +138,11 @@
 
 .estimate-result p {
   line-height: 1.6;
+}
+
+.disclaimer {
+  color: #526175;
+  font-size: 13px;
 }
 
 @media (max-width: 480px) {
